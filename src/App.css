@@ -1,38 +1,71 @@
-.App {
+/* src/App.css */
+
+/* Set body background color and font style */
+body {
+  background-color: #add8e6; /* Baby blue background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container styling */
+.weather-container {
   text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white; /* White background for the weather container */
+  max-width: 650px; /* Maximum width for better responsiveness */
+  margin-left: auto; /* Centering the container */
+  margin-right: auto; /* Centering the container */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Heading styling */
+h1, h2 {
+  font-weight: bold; /* Make headings bold */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Input field styling */
+input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%; /* Responsive width for input field */
+  max-width: 250px; /* Maximum width */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Button styling */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Change cursor to pointer on hover */
+  background-color: #007BFF; /* Bootstrap primary color for buttons */
+  color: white; /* White text color */
+  transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
 }
 
-.App-link {
-  color: #61dafb;
+/* Button hover effect */
+button:hover {
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.7); /* Glowing effect on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Responsive list styling */
+ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+/* Responsive list item styling */
+li {
+  margin: 10px 0; /* Margin between list items */
+  padding: 10px;
+  border: 1px solid #ccc; /* Border for each item */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background for list items */
 }
