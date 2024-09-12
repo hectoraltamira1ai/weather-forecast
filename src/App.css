@@ -2,7 +2,7 @@
 
 /* Set body background color and font style */
 body {
-  background-color: #add8e6; /* Baby blue background */
+  background-color: #336373; /* Baby blue background */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -45,7 +45,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer; /* Change cursor to pointer on hover */
-  background-color: #007BFF; /* Bootstrap primary color for buttons */
+  background-color: #0e68c9; /* Bootstrap primary color for buttons */
   color: white; /* White text color */
   transition: box-shadow 0.3s ease; /* Smooth transition for box-shadow */
 }
